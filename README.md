@@ -7,9 +7,8 @@ Things you may want to cover:
 
 # version
 
-| Language・Framework・Library・Tool | version |
+| Framework・Library・Tool | version |
 ----|---- 
-| Ruby | 3.2.2 |
 | Ruby on Rails | 7.0.7.2 |
 | SQLite 3 |3.43.0|
 
