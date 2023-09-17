@@ -5,20 +5,15 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+## version
 
-* System dependencies
+| Language・Framework・Library | version |
+----|---- 
+| Ruby | 3.2.2 |
+| Ruby on Rails | 7.0.7.2 |
 
-* Configuration
+## How to run the test suite
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+rails server
+```
