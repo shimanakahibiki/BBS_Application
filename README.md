@@ -5,15 +5,33 @@ application up and running.
 
 Things you may want to cover:
 
-## version
+# version
 
-| Language・Framework・Library | version |
+| Language・Framework・Library・Tool | version |
 ----|---- 
 | Ruby | 3.2.2 |
 | Ruby on Rails | 7.0.7.2 |
+| SQLite 3 |3.43.0|
 
-## How to run the test suite
+# Installation
 
+## bundler install（Rubyライブラリの依存関係やバージョン管理をするツール）
+```
+gem install bundler
+```
+
+## Ruby on Rails をinstall
+```
+gem install rails
+```
+
+## SQLite をinstall（Macの場合は最初からインストール済み、バージョンアップしたい場合は必要）
+```
+brew install sqlite3
+```
+
+
+# How to run the test suite
 ```
 rails server
 ```
